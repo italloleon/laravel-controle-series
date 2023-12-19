@@ -3,7 +3,7 @@
         action="{{ route('series.update', $serie->id) }}"
         nome="{{$serie->nome}}"
         description="{{ $serie->description }}"
-        cover_path="{{ asset('storage/' . $serie->cover_path) }}"
+        coverPath="{{ asset('storage/' . $serie->cover_path) }}"
         buttonText="Editar Serie"
         update="true"
     />

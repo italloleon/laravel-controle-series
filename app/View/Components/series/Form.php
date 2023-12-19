@@ -14,9 +14,9 @@ class Form extends Component
     public function __construct(
         public string $action,
         public string $buttonText,
+        public string $coverPath,
         public string $nome = '',
         public string $description = '',
-        public string $cover_path = '',
         public bool $update = false
     )
     {
